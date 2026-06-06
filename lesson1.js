@@ -24,3 +24,6 @@ var lName = "Khan";
 console.log(stdName);
 console.log(mulString);
 console.log(fName +" "+ lName);
+
+var win = true;
+console.log(win);
