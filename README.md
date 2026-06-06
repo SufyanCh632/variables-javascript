@@ -1,17 +1,10 @@
-# variables-javascript
-# JavaScript Variables Example
+# variables-javascript# JavaScript Variables and Data Types
 
-## Overview
+## Introduction
 
-This project demonstrates the use of JavaScript variables using `var`, `let`, and `const`. It also shows:
+This project demonstrates the use of JavaScript variables, arithmetic operations, strings, template literals, Boolean values, and console output.
 
-* Updating variable values
-* Printing output to the console
-* Working with strings
-* Using template literals for multi-line text
-* Concatenating strings
-
-## Code
+## Source Code
 
 ```javascript
 var eng = 85;
@@ -40,23 +33,36 @@ var lName = "Khan";
 console.log(stdName);
 console.log(mulString);
 console.log(fName + " " + lName);
+
+var win = true;
+console.log(win);
 ```
 
-## Explanation
+## Concepts Covered
 
-### Numeric Variables
+### 1. Variable Declaration
+
+JavaScript provides three ways to declare variables:
+
+#### `var`
 
 ```javascript
 var eng = 85;
+```
+
+#### `let`
+
+```javascript
 let math = 70;
+```
+
+#### `const`
+
+```javascript
 const phy = 65;
 ```
 
-* `eng` stores English marks.
-* `math` stores Mathematics marks.
-* `phy` stores Physics marks and cannot be reassigned because it is declared with `const`.
-
-### Updating Values
+### 2. Arithmetic Operations
 
 ```javascript
 eng = 85 + 5;
@@ -65,34 +71,18 @@ math = 70 - 5;
 
 Results:
 
-* `eng = 90`
-* `math = 65`
+* English Marks = 90
+* Math Marks = 65
 
-### Displaying Values
-
-```javascript
-console.log(eng);
-console.log(math);
-console.log(phy);
-```
-
-Output:
-
-```text
-90
-65
-65
-```
-
-### String Variables
+### 3. String Variables
 
 ```javascript
 var stdName = "Ahmed";
 ```
 
-Stores the student's name.
+Stores a text value.
 
-### Multi-Line String
+### 4. Template Literals
 
 ```javascript
 var mulString = `
@@ -102,9 +92,9 @@ Imran Khan is our Leader
 Lets play soccer`;
 ```
 
-Uses a template literal (backticks) to store text across multiple lines.
+Template literals use backticks (`) and allow multi-line strings.
 
-### String Concatenation
+### 5. String Concatenation
 
 ```javascript
 var fName = "Ahmed";
@@ -119,7 +109,19 @@ Output:
 Ahmed Khan
 ```
 
-## Complete Output
+### 6. Boolean Data Type
+
+```javascript
+var win = true;
+console.log(win);
+```
+
+Boolean values can be either:
+
+* `true`
+* `false`
+
+## Program Output
 
 ```text
 90
@@ -133,18 +135,34 @@ Imran Khan is our Leader
 Lets play soccer
 
 Ahmed Khan
+true
 ```
 
-## Learning Objectives
+## Data Types Used
 
-After completing this example, you will understand:
+| Variable  | Data Type |
+| --------- | --------- |
+| eng       | Number    |
+| math      | Number    |
+| phy       | Number    |
+| stdName   | String    |
+| mulString | String    |
+| fName     | String    |
+| lName     | String    |
+| win       | Boolean   |
 
-* `var`, `let`, and `const`
-* Variable reassignment
-* Console output
-* Template literals
-* String concatenation
-* Basic JavaScript syntax
+## Learning Outcomes
 
-```
-```
+By completing this example, you will learn:
+
+* How to declare variables using `var`, `let`, and `const`
+* How to perform arithmetic operations
+* How to display output using `console.log()`
+* How to work with strings and template literals
+* How to concatenate strings
+* How to use Boolean values in JavaScript
+
+## Author
+
+Muhammad Suffiyan Rafi
+Computer Science Student | JavaScript Learner
